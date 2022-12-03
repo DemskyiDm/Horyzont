@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-03T13:49:45.996Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="K-l7xz9poUc5lQkzPojb" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-03T13:51:11.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="cqTWuy6lgDYTLUoNxQOK" version="20.6.0" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="2560" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2138" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,17 +52,71 @@
         <mxCell id="78961159f06e98e8-42" value="+ method(type): type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-30" vertex="1">
           <mxGeometry y="242" width="160" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--31" value="Konto" style="swimlane;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="110" width="150" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;spacingLeft=4;spacingRight=4;" edge="1" parent="9Uc7-UrBmsnEP-_rKTm--31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25" y="55" as="sourcePoint" />
+            <mxPoint x="25" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--35" value="ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9Uc7-UrBmsnEP-_rKTm--31">
+          <mxGeometry x="-10" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--36" value="Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9Uc7-UrBmsnEP-_rKTm--31">
+          <mxGeometry y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--37" value="Imię klienta" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9Uc7-UrBmsnEP-_rKTm--31">
+          <mxGeometry y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--38" value="Nazwisko klienta" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9Uc7-UrBmsnEP-_rKTm--31">
+          <mxGeometry y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--39" value="N pokoju" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="9Uc7-UrBmsnEP-_rKTm--31">
+          <mxGeometry x="10" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--40" value="N rezerwacji" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9Uc7-UrBmsnEP-_rKTm--31">
+          <mxGeometry x="5" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--41" value="Wielkość zniżki" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9Uc7-UrBmsnEP-_rKTm--31">
+          <mxGeometry y="150" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--43" value="Summa zniszki" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9Uc7-UrBmsnEP-_rKTm--31">
+          <mxGeometry y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--42" value="Do zapłaty" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="9Uc7-UrBmsnEP-_rKTm--31">
+          <mxGeometry x="10" y="170" width="80" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="CgKqXJJ97rsR_wPB1YKD-1" value="Klient" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="90" y="320" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="CgKqXJJ97rsR_wPB1YKD-2" value="+ id_klient&#xa;+ Nazwisko Klienta&#xa;+ Imię Klienta&#xa;+ Numer telefonu&#xa;+ Rabat" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="CgKqXJJ97rsR_wPB1YKD-1">
           <mxGeometry y="30" width="160" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--46" value="Pokój" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--47" value="N pokoju" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9Uc7-UrBmsnEP-_rKTm--46">
+          <mxGeometry x="10" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--48" value="Kategoria pokoju" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9Uc7-UrBmsnEP-_rKTm--46">
+          <mxGeometry y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--49" value="Cena" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9Uc7-UrBmsnEP-_rKTm--46">
+          <mxGeometry x="10" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="CgKqXJJ97rsR_wPB1YKD-8" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERzeroToMany;rounded=0;exitX=1.003;exitY=0.146;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CgKqXJJ97rsR_wPB1YKD-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="480" y="290" as="sourcePoint" />
             <mxPoint x="120" y="130" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--50" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Kategoria pokoju&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="640" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9Uc7-UrBmsnEP-_rKTm--52" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9Uc7-UrBmsnEP-_rKTm--50">
+          <mxGeometry y="30" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CgKqXJJ97rsR_wPB1YKD-15" value="Zamówienie" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="290" y="440" width="160" height="180" as="geometry" />
