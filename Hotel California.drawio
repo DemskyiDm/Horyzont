@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-03T13:59:50.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="iZy5cN9Ozg_fKXCEHPpM" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-03T14:00:02.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="QlaYP7BgpVo8PClmoPJk" version="20.6.0" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2560" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -30,12 +30,6 @@
             <mxPoint x="220" y="350" as="sourcePoint" />
             <mxPoint x="120" y="130" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="9Uc7-UrBmsnEP-_rKTm--50" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Kategoria pokoju&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="640" width="130" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="9Uc7-UrBmsnEP-_rKTm--52" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9Uc7-UrBmsnEP-_rKTm--50">
-          <mxGeometry y="30" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CgKqXJJ97rsR_wPB1YKD-15" value="Zamówienie" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="290" y="440" width="160" height="180" as="geometry" />
