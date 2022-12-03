@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-03T13:53:10.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="cL3RPuDqX0VN3N_h-VIV" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-03T13:54:49.787Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="O3i6XXSzKkr2kMrqdhu3" version="20.6.0" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2560" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -134,10 +134,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CgKqXJJ97rsR_wPB1YKD-55" value="Rachunek" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="490" y="119" width="160" height="120" as="geometry" />
+          <mxGeometry x="420" y="100" width="160" height="161" as="geometry" />
         </mxCell>
-        <mxCell id="CgKqXJJ97rsR_wPB1YKD-56" value="+ id_rachunek&#xa;+ data&#xa;+ Nazwisko Klienta&#xa;+ Imię Klienta&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="CgKqXJJ97rsR_wPB1YKD-55">
-          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        <mxCell id="CgKqXJJ97rsR_wPB1YKD-56" value="+ id_rachunek&#xa;+ data&#xa;+ Nazwisko Klienta&#xa;+ Imię Klienta&#xa;+ Numer pokoju&#xa;+ Numer zamówienia&#xa;+ rabat&#xa;+ suma do opłaty" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="CgKqXJJ97rsR_wPB1YKD-55">
+          <mxGeometry y="30" width="160" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="CgKqXJJ97rsR_wPB1YKD-57" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.036;entryY=0.381;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CgKqXJJ97rsR_wPB1YKD-2" target="CgKqXJJ97rsR_wPB1YKD-56">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="270" y="360" as="sourcePoint" />
+            <mxPoint x="370" y="260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
