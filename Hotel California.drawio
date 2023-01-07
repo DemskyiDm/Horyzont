@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-07T19:32:40.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="669FIPwButBTpSBVP2nW" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-07T19:34:04.131Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="YOkADrZ_jKoyvf-D8D0z" version="20.8.3" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2562" dy="1458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
             <mxPoint x="580" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CgKqXJJ97rsR_wPB1YKD-30" value="Kategoria pokoju" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;strokeColor=#88FF75;" parent="1" vertex="1">
+        <mxCell id="CgKqXJJ97rsR_wPB1YKD-30" value="Kategorii" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;strokeColor=#88FF75;" parent="1" vertex="1">
           <mxGeometry x="560" y="445" width="160" height="75" as="geometry" />
         </mxCell>
         <mxCell id="CgKqXJJ97rsR_wPB1YKD-31" value="+ Numer pokoju&#xa;+ kategoria" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="CgKqXJJ97rsR_wPB1YKD-30" vertex="1">
