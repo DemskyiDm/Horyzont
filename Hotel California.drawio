@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-14T09:44:47.400Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="xzJofA1Q697308u0Hs3O" version="20.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-14T09:46:05.768Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="_fpCJCuY1bQ2vZb5Hgdp" version="20.8.4" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="1333" dy="94" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1404" dy="161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -266,7 +266,7 @@
         <mxCell id="Z81TpOneLBkhTf4A3xL6-126" value="+ id stanowisko" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Z81TpOneLBkhTf4A3xL6-119" vertex="1">
           <mxGeometry y="134" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Z81TpOneLBkhTf4A3xL6-127" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Z81TpOneLBkhTf4A3xL6-115" target="Z81TpOneLBkhTf4A3xL6-120" edge="1">
+        <mxCell id="Z81TpOneLBkhTf4A3xL6-127" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Z81TpOneLBkhTf4A3xL6-115" target="Z81TpOneLBkhTf4A3xL6-120" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="-350" y="560" as="sourcePoint" />
             <mxPoint x="-250" y="460" as="targetPoint" />
@@ -378,14 +378,12 @@
             <mxPoint x="-230" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z81TpOneLBkhTf4A3xL6-169" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERzeroToOne;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="Z81TpOneLBkhTf4A3xL6-159" edge="1">
+        <mxCell id="Z81TpOneLBkhTf4A3xL6-169" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERzeroToOne;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.998;exitY=0.137;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Z81TpOneLBkhTf4A3xL6-120" target="Z81TpOneLBkhTf4A3xL6-159" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="-60" y="450" as="sourcePoint" />
             <mxPoint x="-430" y="250" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-60" y="450" />
-              <mxPoint x="-20" y="450" />
-              <mxPoint x="-20" y="331" />
+              <mxPoint x="-20" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
